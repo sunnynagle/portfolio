@@ -1,0 +1,9 @@
+.App {
+  height: 100%;
+}
+
+.main-page-contenar{
+  height: calc(100%- 80px);
+ 
+}
+

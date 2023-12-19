@@ -1,0 +1,138 @@
+.about{
+    &__content{
+        display: flex;
+        gap:20px;
+        padding: 20px;
+        width: 100%;
+
+        &__personlWrapper, &____servicesWrapper{
+            width: 50%;
+
+        }
+
+        &______personlWrapper {
+           
+                margin-bottom: 10px;
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--yellow-theme-main-color);
+
+               
+                    } 
+                }
+                &__servicesWrapp{
+
+
+                    }
+                    @keyframes rotation {
+                        100% {
+                            transfrom:rotate(360deg);
+                        }
+                    }
+            
+                }
+            
+        
+
+    
+
+
+.sunny{
+    margin-bottom: 10px;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: var(--yellow-theme-main-color);
+
+}
+.sunny2{
+    margin-bottom: 10px;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: var(--yellow-theme-main-color);
+    padding: 20px;
+
+}
+.p{
+    color: floralwhite;
+    font-size: 1.8rem;
+    line-height: 1.65;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+}
+
+
+
+.ul.li{
+    margin-right: 1rem;
+    margin-bottom: 15rem;
+}
+
+    span.title, span.value {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        border-bottom: 2px solid var(--yellow-theme-main-color);
+       position: relative;
+       display: inline-block;
+       margin-right: 16px; 
+       margin-top: 15px;
+       padding-bottom: 5px;
+       color: aliceblue;
+    }
+    span.value{
+        border: none;
+    }
+    
+    .innerContent{
+        width: 350PX;
+        height: 350px;
+        background: radial-gradient(180px, var(--yellow-theme-main-color), transparent 90%);
+        position: relative;
+        border-radius: 50%;
+        border: 1.5px solid var(--yellow-theme-main-color);
+        animation: rotatatelogo 5s linear infinite ;
+
+            
+        
+       
+      
+        
+        }
+       .rodot1{
+            position:absolute;
+            top:-9%;
+            left:41%;
+
+        }
+        .rodot2{
+            position: absolute;
+            right: -8%;
+            top: 41.5%;
+        }
+        .rodot3{
+            position: absolute;
+            bottom: -10%;
+            left:41%;
+        }
+        .rodot4{
+            position: absolute;
+            left: -8%;
+            top:41%;
+
+        }
+        .servicesWrapp{
+            display: flex;
+            justify-content: center;
+            padding-left: 7%;
+            padding-top: 5%;
+           
+          
+            
+        }
+        @keyframes rotatatelogo {
+           from{transform: rotate(0deg) ;}
+           to{transform: rotate(360deg);}
+        }
+
+       
+      
